@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 243, 243);
+}
+.centre{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: rgb(238, 164, 164);
+    border: 2px solid #fbff00;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
