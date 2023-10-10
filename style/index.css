@@ -20,3 +20,18 @@ body { font-family: sans-serif; }
   text-align: left;
 }
 /* Icons courtesy of Thom : http://pixelb.in/assorted-pixel-perfect-14px-icon-set-286/ */
+
+
+/* Icons courtesy of Thom : http://pixelb.in/assorted-pixel-perfect-14px-icon-set-286/ */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgray;
+  color: white;
+  text-align :left;
+  padding-left: 25%; 
+}
+
