@@ -7,8 +7,8 @@ body { font-family: sans-serif; }
   text-decoration: none;
   padding-left: 25px;
   text-transform: uppercase;
-  color: #000000;
-    text-shadow: 1px 1px 1px #c7c0c0;
+  color: #333;
+    text-shadow: 1px 1px 1px #ccc;
 }
 
 .nav-bar .nav-button-home a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/home.gif") no-repeat 0px -2px transparent; }
@@ -16,7 +16,7 @@ body { font-family: sans-serif; }
 .nav-bar .nav-button-services a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/services.gif") no-repeat 0px -2px transparent; }
 
 .nav-bar .nav-button-products a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/products.gif") no-repeat 0px -2px transparent; }
-#o {
+#connexion {
   text-align: left;
 }
 /* Icons courtesy of Thom : http://pixelb.in/assorted-pixel-perfect-14px-icon-set-286/ */
@@ -34,16 +34,3 @@ footer {
   text-align :left;
   padding-left: 25%; 
 }
-nav ul li a {
-  font-size: 16px; /* Taille de police de base */
-  text-decoration: none;
-  color: #333; /* Couleur du texte par défaut */
-  transition: font-size 0.3s; /* Animation de transition pour la taille de police */
-}
-
-/* Style pour le survol du texte */
-nav ul li a:hover {
-  font-size: 18px; /* Taille de police plus grande au survol */
-  color: #007bff; /* Couleur du texte modifiée au survol */
-}
-
