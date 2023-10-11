@@ -5,7 +5,7 @@
   height: 100px;
   flex-direction:row;
   justify-content: end;
-  background-color: black;
+  background-color: rgb(47, 89, 228);
 }
 
 .titre{
