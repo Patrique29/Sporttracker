@@ -1,52 +1,60 @@
-body { font-family: sans-serif; }
-
-#main-menu .nav-bar { list-style:none; margin-top: 40px; }
-#main-menu .nav-bar li { display:inline; padding:0 10px; }
-
-#main-menu .nav-bar li a {
-  text-decoration: none;
-  padding-left: 25px;
-  text-transform: uppercase;
-  color: #000000;
-    text-shadow: 1px 1px 1px #c7c0c0;
-}
-
-.nav-bar .nav-button-home a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/home.gif") no-repeat 0px -2px transparent; }
-
-.nav-bar .nav-button-services a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/services.gif") no-repeat 0px -2px transparent; }
-
-.nav-bar .nav-button-products a { background:url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/products.gif") no-repeat 0px -2px transparent; }
-#o {
-  text-align: left;
-}
-/* Icons courtesy of Thom : http://pixelb.in/assorted-pixel-perfect-14px-icon-set-286/ */
-
-
-/* Icons courtesy of Thom : http://pixelb.in/assorted-pixel-perfect-14px-icon-set-286/ */
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+.navbar{
+  margin-top: -10px;
+  display:flex;
   width: 100%;
-  background-color: darkgray;
-  color: white;
-  text-align :left;
-  padding-left: 25%; 
-}
-nav ul li a {
-  font-size: 16px; /* Taille de police de base */
-  text-decoration: none;
-  color: #333; /* Couleur du texte par défaut */
-  transition: font-size 0.3s; /* Animation de transition pour la taille de police */
+  height: 100px;
+  flex-direction:row;
+  justify-content: end;
+  background-color: black;
 }
 
-/* Style pour le survol du texte */
-nav ul li a:hover {
-  font-size: 18px; /* Taille de police plus grande au survol */
-  color: #007bff; /* Couleur du texte modifiée au survol */
+.titre{
+  text-align: center;
+  color: snow;
 }
-nav {
-  font-size: 50px;
-  background-color: #007bff; /* Couleur de fond bleue */
+
+.bouton{
+  margin-right: 10px;
+  display: flex;
+  width: 45%;
+  height: 100px;
+  flex-direction:row-reverse;
+  justify-content:end ;
+  align-items: center;
+}
+
+.boutonFormulaire{
+  text-decoration: none;
+  margin-left: 60px;
+  color: white;
+  font-family: Nunito;
+  width: 110px;
+  height: 38px;
+  border: 2px solid white;
+  background-color: black;
+  transition: 0.5s;
+  -webkit-border-radius: 12px / 24px;
+  -moz-border-radius:    12px / 24px; 
+  border-radius:         12px / 24px; 
+}
+
+.boutonFormulaire:hover {
+  transition: 0.5s;
+  width: 110px;
+  height: 50px;
+  background-color: white;
+  border: 5px solid white;
+  -webkit-border-radius: 12px / 24px;
+  -moz-border-radius:    12px / 24px; 
+  border-radius:         12px / 24px; 
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color:black;
 }
