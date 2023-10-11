@@ -46,4 +46,7 @@ nav ul li a:hover {
   font-size: 18px; /* Taille de police plus grande au survol */
   color: #007bff; /* Couleur du texte modifiée au survol */
 }
-
+nav {
+  font-size: 50px;
+  background-color: #007bff; /* Couleur de fond bleue */
+}
