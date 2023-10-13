@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/connexion.css">
+    <link rel="stylesheet" href="/style/connexion.css">
     <link rel="icon" type="image/jpg" href="pikminducombatmaisquele1caraprèsilestnul.jpg" />
     <title>Modifier les informations</title>
 </head>
@@ -16,8 +16,12 @@
             <label for="prenom">Prénom</label><br>
             <input required id="prenom" type="text"><br>
 
-            <label for="ddn">Date de naissance (DD/MM/YYYY)</label><br>
-            <input required id="ddn" type="data" size="10"> <br>
+            <label for="day">Date de naissance (DD/MM/YYYY)</label><br>
+            <input required id="day" type="data" size="2"> 
+            <label for="month">Mois</label>
+            <input required id="month" type="data" size="2"> 
+            <label for="year">Année</label>
+            <input required id="year" type="data" size="2"> 
 
             Sexe <br>
             <input id="M" type="radio" name="sexe" value="M" >
@@ -40,7 +44,7 @@
             <label for="mdp">Confirmer le nouveau mot de passe</label><br>
             <input id="mdp" type="password"><br>
             <input type="submit" value="Confirmer les modifications">
-            <a id="centre" href="index.html">Retour à l'accueil ?</a>
+            <a id="centre" href="/index.html">Retour à l'accueil ?</a>
         </form>
     </div>
 </body>
