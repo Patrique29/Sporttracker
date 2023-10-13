@@ -5,7 +5,7 @@
   height: 100px;
   flex-direction:row;
   justify-content: end;
-  background-color: rgb(47, 89, 228);
+  background-color: rgb(255, 185, 33);
 }
 
 .titre{
@@ -14,6 +14,8 @@
 }
 
 .bouton{
+  text-decoration: none; 
+  color: inherit; 
   margin-right: 10px;
   display: flex;
   width: 45%;
@@ -24,6 +26,8 @@
 }
 
 .boutonFormulaire{
+  text-decoration: none; 
+  color: inherit; 
   text-decoration: none;
   margin-left: 60px;
   color: white;
@@ -39,6 +43,8 @@
 }
 
 .boutonFormulaire:hover {
+  text-decoration: none;
+  color: inherit;
   transition: 0.5s;
   width: 110px;
   height: 50px;
@@ -57,4 +63,21 @@ a:visited{
 
 a:hover{
   color:black;
+}
+
+img {
+  width:650px;
+  height: 400px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.centre{
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
 }
