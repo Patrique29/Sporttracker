@@ -15,11 +15,29 @@
             <input required id="nom" type="text"><br>
 
             <label for="prenom">Prénom</label><br>
-            <input required id="prenom" type="text"><br>
+            <input required id="prenom" type="text"><br><br>
 
-            <label for="ddn">Date de naissance (DD/MM/YYYY)</label><br>
-            <input required id="ddn" type="data" size="10"> <br>
-
+            
+            <label for="day">Jour</label>
+            <input required id="day" type="number" size="4">
+            <label for="month">Mois</label>
+            <select required id="month">
+                <option value="01">Janvier</option>
+                <option value="02">Février</option>
+                <option value="03">Mars</option>
+                <option value="04">Avril</option>
+                <option value="05">Mai</option>
+                <option value="06">Juin</option>
+                <option value="07">Juillet</option>
+                <option value="08">Août</option>
+                <option value="09">Septembre</option>
+                <option value="10">Octobre</option>
+                <option value="11">Novembre</option>
+                <option value="12">Décembre</option>
+            </select>
+            <label for="year">Année</label>
+            <input required id="year" type="number" size="6"><br>
+ 
             Sexe <br>
             <input id="M" type="radio" name="sexe" value="M" >
             <label for="M">M</label>
@@ -27,7 +45,7 @@
             <label for="F">F</label><br>
             
             <label for="masse">Poids</label><br>
-            <input required id="masse" type="number"> kg <br>
+            <input required id="masse" type="number" size="5"> kg <br>
 
             <label for="email">Adresse électronique</label><br>
             <input required id="email" type="email"><br>
