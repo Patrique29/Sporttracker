@@ -1,5 +1,5 @@
 .navbar{
-  position: fixed;
+  position: relative;
   margin-top: -10px;
   display:flex;
   width: 99.2%;
@@ -71,7 +71,7 @@ a:hover{
 img {
   position: absolute; 
   margin: 0;
-  top: 35%;
+  top: auto;
   left: 50%;
   -ms-transform: translate(-50%);
   transform: translate(-50%);
@@ -115,7 +115,7 @@ img {
   margin-right: 60px;
   color: rgb(255, 255, 255);
   font-family: Nunito;
-  width: 110px;
+  width: 10em;
   height: 38px;
   border: 2px solid white;
   background-color: black;
